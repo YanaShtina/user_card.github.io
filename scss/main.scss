@@ -1,0 +1,30 @@
+$base-color-bold: #2E3349;
+$base-color-regular: #6B7082;
+$font-family: 'Kumbh Sans' sans-serif;
+
+
+html {
+   box-sizing: border-box;
+ }
+ 
+ *,
+ *::before,
+ *::after {
+   box-sizing: inherit;
+ }
+ 
+ body {
+   margin: 0;
+   font-family: $font-family;
+ }
+ h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+ }
+ .hidden{
+   position: absolute;
+   clip: rect(0 0 0 0);
+   width: 1px;
+   height: 1px;
+   margin: -1px
+ }
