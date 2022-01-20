@@ -142,7 +142,7 @@ p {
 
 .cart__bg {
   position: relative;
-  background: url("/img/bg_card.webp") no-repeat top;
+  background: url("../img/bg_card.webp") no-repeat top;
   height: 140px;
   background-size: contain;
   overflow: hidden;
