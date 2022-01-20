@@ -69,13 +69,13 @@ html {
    margin: -1px
  }
  .main{
-   background:url('/img/desc-bg.jpg');
+   background:url('../img/desc-bg.jpg');
    background-repeat: no-repeat;
    background-position: left;
    position: relative;
 background-size: cover;
  @include mobile{
- background:url('/img/mobile_bg.jpg');
+ background:url('../img/mobile_bg.jpg');
  background-position: left;
  background-size: cover;
  width: 100%;
