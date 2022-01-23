@@ -2,14 +2,14 @@
   font-family: "KumbhSans-Bold";
   font-style: normal;
   font-weight: 700;
-  src: url("/../fonts/KumbhSans-Bold.woff2") format("woff2"), url("/../fonts/KumbhSans-Bold.woff") format("woff");
+  src: url("../fonts/KumbhSans-Bold.woff2") format("woff2"), url("../fonts/KumbhSans-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: "KumbhSans-Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("/../fonts/KumbhSans-Regular.woff2") format("woff2"), url("/../fonts/KumbhSans-Regular.woff") format("woff");
+  src: url("../fonts/KumbhSans-Regular.woff2") format("woff2"), url("../fonts/KumbhSans-Regular.woff") format("woff");
 }
 
 html {
