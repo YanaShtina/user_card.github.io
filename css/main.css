@@ -2,14 +2,14 @@
   font-family: "KumbhSans-Bold";
   font-style: normal;
   font-weight: 700;
-  src: url("/fonts/KumbhSans-Bold.woff2") format("woff2"), url("/fonts/KumbhSans-Bold.woff") format("woff");
+  src: url("fonts/KumbhSans-Bold.woff2") format("woff2"), url("fonts/KumbhSans-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: "KumbhSans-Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/KumbhSans-Regular.woff2") format("woff2"), url("/fonts/KumbhSans-Regular.woff") format("woff");
+  src: url("fonts/KumbhSans-Regular.woff2") format("woff2"), url("fonts/KumbhSans-Regular.woff") format("woff");
 }
 
 html {
@@ -36,6 +36,12 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin: 0;
   padding: 0;
+}
+
+picture {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
 }
 
 .main {
@@ -70,6 +76,7 @@ p {
 }
 
 .text-bold {
+  text-align: center;
   display: block;
   font-size: 18px;
   font-family: "KumbhSans-Bold";
@@ -79,6 +86,7 @@ p {
 }
 
 .text-regular {
+  text-align: center;
   display: block;
   font-size: 14px;
   font-family: "KumbhSans-Regular";
@@ -129,6 +137,8 @@ p {
   height: 100%;
   display: inline-block;
   border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .cart__bg {
@@ -219,6 +229,10 @@ p {
           justify-content: space-between;
   width: 100%;
   padding: 0 50px;
+}
+
+.digital__item {
+  width: 65px;
 }
 
 .digital__item-number {
